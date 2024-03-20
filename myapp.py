@@ -73,6 +73,8 @@ def main():
             st.write("Randomly Assigned Projects:")
             for group, project in projects.items():
                 st.write(f"{group}: {project}")
-
+    st.markdown("---")
+    st.write("Project Holder by: OEUN PAO")
+    st.write("Student of Department of Applied Mathematics and Statistics, ITC")
 if __name__ == "__main__":
     main()
