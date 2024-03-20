@@ -59,7 +59,7 @@ def main():
                 st.write(team_df.to_html(index=False, escape=False), unsafe_allow_html=True)
 
     elif option == "Random Team Project":
-        st.header("Random Team Project with title of project or exercise")
+        st.header("Random Team Project Name or number with titles of project or exercise")
         groups = st.text_area("Enter Group Names or Numbers (one per line)")
         has_titles = st.radio("Do you have project titles?", ["Yes", "No"])
         if has_titles == "Yes":
